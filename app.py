@@ -8,7 +8,7 @@ import os
 # ========== PAGE CONFIG ==========
 st.set_page_config(
     page_title="LogicDecompiler - C++ to Pseudocode",
-    page_icon="💻➡️📝",  # Emoji favicon
+    page_icon="💻",
     layout="centered",
     initial_sidebar_state="collapsed"
 )
@@ -70,7 +70,7 @@ st.markdown("""
     }
 
     .footer span:hover::after {
-        content: " LogicDecompiler v1.0 | Powered by Streamlit & PyTorch ";
+        content: " Hassan Haseen & Sameen Muzaffar ";
         position: absolute;
         top: -30px;
         right: 0;
